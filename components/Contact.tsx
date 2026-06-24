@@ -16,22 +16,12 @@ const services = [
 const contactInfo = [
   {
     label: "Email",
-    value: "hello@atracksolutions.com",
-    href: "mailto:hello@atracksolutions.com",
+    value: "info@atracksol.com",
+    href: "mailto:info@atracksol.com",
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
         <rect x="2" y="4" width="16" height="12" rx="2" stroke="currentColor" strokeWidth="1.5"/>
         <path d="M2 7l8 5 8-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-      </svg>
-    ),
-  },
-  {
-    label: "Phone",
-    value: "+1 (800) ATRACK-1",
-    href: "tel:+18002872251",
-    icon: (
-      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-        <path d="M5 2h4l1.5 4-2 1.5A11 11 0 0011.5 11.5L13 9.5l4 1.5v4A2 2 0 015 15.5C4.5 8 5 2 5 2z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
       </svg>
     ),
   },
