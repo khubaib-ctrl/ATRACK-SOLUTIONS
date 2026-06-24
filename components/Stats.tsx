@@ -2,15 +2,14 @@
 
 const stats = [
   {
-    value: "150+",
-    label: "Stores Built",
-    description: "Online stores launched across diverse industries worldwide",
+    value: "95%+",
+    label: "On-time Delivery Rate",
+    description: "Projects and updates delivered on schedule, every time",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M4 8h20l-2 12H6L4 8z" stroke="currentColor" strokeWidth="1.75" strokeLinejoin="round"/>
-        <path d="M9 8V6a5 5 0 0110 0v2" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
-        <circle cx="11" cy="17" r="1.5" fill="currentColor"/>
-        <circle cx="17" cy="17" r="1.5" fill="currentColor"/>
+        <rect x="4" y="6" width="20" height="18" rx="3" stroke="currentColor" strokeWidth="1.75"/>
+        <path d="M9 4v4M19 4v4M4 13h20" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
+        <path d="M9 18l3 3 7-6" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
   },
