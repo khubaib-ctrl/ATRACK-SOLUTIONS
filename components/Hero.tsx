@@ -238,77 +238,9 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Trust indicators */}
-          <div
-            style={{
-              marginTop: "4rem",
-              display: "flex",
-              flexWrap: "wrap",
-              gap: "2.5rem",
-              alignItems: "center",
-              paddingTop: "2.5rem",
-              borderTop: "1px solid var(--border)",
-            }}
-          >
-            {[
-              { label: "Stores Launched", value: "150+" },
-              { label: "Customer Satisfaction (CSAT)", value: "90%+" },
-              { label: "Years Experience", value: "7+" },
-              { label: "Resolution Time", value: "< 24h" },
-            ].map((stat) => (
-              <div key={stat.label}>
-                <div
-                  style={{
-                    fontFamily: "var(--font-playfair), serif",
-                    fontSize: "1.875rem",
-                    fontWeight: 700,
-                    color: "var(--text-primary)",
-                    lineHeight: 1.2,
-                  }}
-                >
-                  {stat.value}
-                </div>
-                <div
-                  style={{
-                    fontSize: "0.8125rem",
-                    color: "var(--text-muted)",
-                    fontWeight: 500,
-                    marginTop: "0.2rem",
-                  }}
-                >
-                  {stat.label}
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div
-        style={{
-          position: "absolute",
-          bottom: "2.5rem",
-          left: "50%",
-          transform: "translateX(-50%)",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          gap: "0.5rem",
-          opacity: 0.4,
-        }}
-      >
-        <span style={{ fontSize: "0.75rem", fontWeight: 500, letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--text-muted)" }}>
-          Scroll
-        </span>
-        <div
-          style={{
-            width: "1px",
-            height: "40px",
-            background: "linear-gradient(to bottom, var(--text-muted), transparent)",
-          }}
-        />
-      </div>
     </section>
   );
 }

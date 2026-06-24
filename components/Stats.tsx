@@ -25,17 +25,6 @@ const stats = [
     ),
   },
   {
-    value: "$12M+",
-    label: "Revenue Generated",
-    description: "Total revenue driven for our e-commerce clients",
-    icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M14 4v2M14 22v2M7.5 7.5l1.5 1.5M19 19l1.5 1.5M4 14h2M22 14h2M7.5 20.5l1.5-1.5M19 9l1.5-1.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
-        <circle cx="14" cy="14" r="5" stroke="currentColor" strokeWidth="1.75"/>
-      </svg>
-    ),
-  },
-  {
     value: "< 24h",
     label: "Resolution Time",
     description: "Average time to fully resolve a client support request",
