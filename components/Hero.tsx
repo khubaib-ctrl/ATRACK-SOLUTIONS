@@ -252,9 +252,9 @@ export default function Hero() {
           >
             {[
               { label: "Stores Launched", value: "150+" },
-              { label: "Client Satisfaction", value: "98%" },
+              { label: "Customer Satisfaction (CSAT)", value: "90%+" },
               { label: "Years Experience", value: "7+" },
-              { label: "Uptime Guaranteed", value: "99.9%" },
+              { label: "Resolution Time", value: "< 24h" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div

@@ -15,9 +15,9 @@ const stats = [
     ),
   },
   {
-    value: "98%",
-    label: "Client Satisfaction",
-    description: "Average satisfaction rating from our client base",
+    value: "90%+",
+    label: "Customer Satisfaction (CSAT)",
+    description: "Average CSAT score across all client support interactions",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
         <path d="M14 3l2.9 5.9L23 9.9l-4.5 4.4 1.1 6.3L14 17.6l-5.6 3 1.1-6.3L5 10l6.1-.9L14 3z" stroke="currentColor" strokeWidth="1.75" strokeLinejoin="round"/>
@@ -36,14 +36,13 @@ const stats = [
     ),
   },
   {
-    value: "99.9%",
-    label: "Uptime Delivered",
-    description: "Reliable hosting and store performance, always on",
+    value: "< 24h",
+    label: "Resolution Time",
+    description: "Average time to fully resolve a client support request",
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-        <path d="M14 6C9.6 6 6 9.6 6 14s3.6 8 8 8 8-3.6 8-8" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
-        <path d="M19 6l3 3-3 3" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M10.5 14l2.5 2.5 5-5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
+        <circle cx="14" cy="14" r="10" stroke="currentColor" strokeWidth="1.75"/>
+        <path d="M14 8v6l4 3" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
   },
